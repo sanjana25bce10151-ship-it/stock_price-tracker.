@@ -1,12 +1,12 @@
 # stock_price-tracker.
 
-#STOCK DATA VIEWER-
+# STOCK DATA VIEWER-
 
 (Tkinter + SQLite)This project is a simple desktop application built with Python, Tkinter, and SQLite to view stored stock price data.
 
 It allows the user to select a stock from a dropdown and display all saved records for that stock in a table-like Treeview widget.
 
-#FEATURES-
+# FEATURES-
 
 GUI built using Tkinter.
 
@@ -20,7 +20,7 @@ Tabular display using ttk.Treeview (columns: Stock Name, Price, Timestamp).
 
 Automatically loads available stock names into the dropdown at startup.
 
-#HOW IT WORKS-
+# HOW IT WORKS-
 
 On startup, the app connects to stock_data.db and runs SELECT DISTINCT stock_name FROM stock_prices to get all unique stock names.
 
@@ -34,7 +34,7 @@ When the user clicks “Load Data”, the app:
   
   Inserts each returned record as a row in the Treeview.
   
-#REQUIREMENTS-
+ # REQUIREMENTS-
 
   -Standard library modules:
   
@@ -45,7 +45,7 @@ When the user clicks “Load Data”, the app:
      
   -An existing SQLite database file named stock_data.db in the same directory, containing a stock_prices table with appropriate columns.
 
-#CODE OVERVIEW -
+# CODE OVERVIEW -
 
  -display_data()
  
